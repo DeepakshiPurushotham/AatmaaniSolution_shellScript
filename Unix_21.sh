@@ -18,7 +18,7 @@ echo "line update"
 #Delete line
 
 2) read -p "select which line needs to be deleted:" n 
-echo `cat file.sh | grep $n | sed -f $nd file.sh`
+echo `cat file.sh | grep $n | sed -i $n'd' file.sh`
 echo "deleted line $n"
 ;;
 # Find particular line
