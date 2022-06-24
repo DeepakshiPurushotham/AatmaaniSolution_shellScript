@@ -1,0 +1,9 @@
+#$0 , $n ,$#, $*, $@, $?, $$, $!
+$0 - script name
+$n - nth argument
+$# - display no of the argument used
+$* - display all the arguments in one single string
+$@ - display all the agruments in different strings
+$? - display status os previous execution command
+$$ - PPID of current shell
+$! - PPID of last background command
