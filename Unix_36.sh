@@ -1,6 +1,6 @@
 #!/bin/bash
-echo `find . -size "10M"`
+a=`find . -size "10M"`
 if [ -s -ge 10 ]
 then
-echo `rm -rf`
+echo `rm -f $a`
 fi
