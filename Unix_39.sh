@@ -14,6 +14,12 @@ echo `sudo mv  *.zip apache-tomcat-8.5.81 /opt/Tomcat`
 fi
 #echo `cp  apache-tomcat-8.5.81 /opt/ apache-tomcat-8.5.81
 echo `sudo chmod 777 /opt/Tomcat/apache-tomcat-8.5.81/bin/*.sh`
+
+#fuchtion for config
+source ./tomcat_fun.sh
+context_xml
+context_xml2
+
 cd /opt/Tomcat/apache-tomcat-8.5.81/bin/
 sudo sh startup.sh
 
